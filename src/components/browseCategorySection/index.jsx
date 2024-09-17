@@ -82,7 +82,7 @@ export default function BrowseCategory() {
           </div>
         </div>
         <Carousel
-          className="w-[460px] md:w-full flex flex-col"
+          className="w-[420px] md:w-full flex flex-col"
           opts={{
             align: "start",
             loop: true,
