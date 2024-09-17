@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TrendingCard({ item }) {
   return (
     <div
-      className="w-[460px] h-[292px] md:w-[287.5px] md:h-[306px] rounded-2xl p-4 flex flex-col items-start justify-center drop-shadow-card relative"
+      className="w-[402px] h-[292px] md:w-[287.5px] md:h-[306px] rounded-2xl p-4 flex flex-col items-start justify-center drop-shadow-card relative"
       style={{ backgroundColor: item.cardBackground }}
     >
       <Image
