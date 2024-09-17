@@ -30,17 +30,17 @@ export default function MobileFooter() {
   return (
     <div
       className={`fixed bottom-0 w-full h-[89px] border-t bg-white flex items-center justify-center md:hidden transition-transform duration-300 ${
-        showFooter ? "translate-y-0" : "translate-y-full"
+        showFooter ? "translate-y-0" : "translate-y-96"
       }`}
     >
       <div className="flex justify-between items-center w-full container mx-4 h-full">
-        <div className="flex flex-col gap-1 items-center justi">
+        <div className="flex flex-col gap-1 items-center justify-center">
           <div className="size-[39px] flex items-center justify-center">
             <CiMenuBurger className="size-full" />
           </div>
           <div className="font-rubik text-sm leading-6 text-linear">Home</div>
         </div>
-        <div className="flex flex-col gap-1 items-center justi">
+        <div className="flex flex-col gap-1 items-center justify-center">
           <div className="size-[39px] flex items-center justify-center">
             <CiMenuBurger className="size-full" />
           </div>
@@ -48,7 +48,7 @@ export default function MobileFooter() {
             Promotions
           </div>
         </div>
-        <div className="flex flex-col gap-1 items-center justi">
+        <div className="flex flex-col gap-1 items-center justify-center">
           <div className="size-[39px] flex items-center justify-center">
             <CiMenuBurger className="size-full" />
           </div>
